@@ -37,7 +37,7 @@ export default function design2() {
           />
         </div>
         <div className={design3Styles.absolute}>
-          <img
+          <img 
             ref={boxRef}
             src="/images/3/nft1.png" 
             className={`${design3Styles.slide1} ${design3Styles.slide}`}

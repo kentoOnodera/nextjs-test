@@ -13,7 +13,7 @@ type Props = {
     date: string
   }[]
 }
-export default function Home({allPostsData}: Props) {
+export default function Home() {
   return (
     <Layout home>
       <Head>
@@ -55,11 +55,11 @@ export default function Home({allPostsData}: Props) {
     </Layout>
   );
 }
-export const getStaticProps: GetStaticProps = async () =>{
-  const allPostsData = getSortedPostsData();
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}
+// export const getStaticProps: GetStaticProps = async () =>{
+//   const allPostsData = getSortedPostsData();
+//   return {
+//     props: {
+//       allPostsData,
+//     },
+//   };
+// }
