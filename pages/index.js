@@ -6,13 +6,7 @@ import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/js/date';
 
-// type Props = {
-//   allPostData:{
-//     id: string
-//     title: string
-//     date: string
-//   }[]
-// }
+
 export default function Home() {
   return (
     <Layout home>
