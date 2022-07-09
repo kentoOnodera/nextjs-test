@@ -118,29 +118,6 @@ export default function design2() {
             </div>
           </div>
         </div>
-        {/* <div className={design2Styles.article__inner}>
-          <div>
-            <div className={design2Styles.article__inner__content}>
-              <form>
-                <input type="text"></input>
-              </form> 
-            </div>
-            <div className={design2Styles.article__inner__content}>
-              <button>ログイン</button>
-              <button>会員登録</button>  
-            </div>
-          </div>
-          <div>
-            <Image
-              priority
-              src="/images/2/nft.png"
-              className={design2Styles.logo}
-              width={100}
-              height={100}
-              alt="ロゴ"
-            />
-          </div>
-        </div> */}
       </article>
     </Layout>
   );

@@ -2,7 +2,6 @@ import Layout from '../components/js/layout';
 import { useEffect, useState, useRef } from "react";
 import design3Styles from '../styles/design3.module.scss';
 import { gsap } from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 export default function design2() {
