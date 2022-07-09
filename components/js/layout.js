@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image
+            {/* <Image
               priority
               src="/images/profile.jpeg"
               className={utilStyles.borderCircle}
@@ -36,11 +36,11 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{name}</h1> */}
           </>
         ) : (
           <>
-            <Link href="/">
+            {/* <Link href="/">
               <a>
                 <Image
                   priority
@@ -56,7 +56,7 @@ export default function Layout({ children, home }) {
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
-            </h2>
+            </h2> */}
           </>
         )}
       </header>

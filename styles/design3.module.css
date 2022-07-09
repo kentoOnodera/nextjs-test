@@ -1,0 +1,54 @@
+.header {
+  background: #000B00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 96px;
+}
+
+.article {
+  background: #000B00;
+}
+
+.main {
+  width: 100%;
+}
+
+.nft {
+  position: relative;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 45%;
+}
+
+.absolute {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  margin: auto;
+  width: 444px;
+}
+
+.slide1 {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.slide2 {
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
+}
+
+.slide3 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+/*# sourceMappingURL=design3.module.css.map */

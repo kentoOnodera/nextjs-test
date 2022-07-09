@@ -1,0 +1,41 @@
+.header{
+  background: #000B00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:96px;
+}
+
+.article{
+  background: #000B00;
+}
+.main{
+  width: 100%;
+}
+
+.nft{
+  position: relative;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right:45%;
+}
+
+.absolute{
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  margin: auto;
+  width: 444px;
+}
+.slide1{
+  transform:rotate(15deg);
+  
+}
+.slide2{
+  transform:rotate(8deg);
+}
+.slide3{
+  transform:rotate(0deg);
+}
