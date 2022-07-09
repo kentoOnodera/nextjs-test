@@ -1,4 +1,4 @@
-/* .header {
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,5 +13,4 @@
 
 .backToHome {
   margin: 3rem 0 0;
-} */
-/*# sourceMappingURL=layout.module.css.map */
+}
