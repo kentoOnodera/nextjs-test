@@ -44,53 +44,6 @@ export default function design2() {
           /> 
         </div>
       </div> 
-
-    
-      {/* <Head>
-        <title>コンセプト案3</title>
-      </Head>
-      <header className={design3Styles.header}>
-        <Image
-            priority
-            src="/images/3/main.png"
-            className={headerStyles.logo}
-            width={117}
-            height={26}
-            alt="ロゴ"
-        />
-        
-        <form>
-          <input type="text"></input>
-        </form> 
-        <button>ログイン</button>
-        <button>会員登録</button>
-      </header>
-      <article className={design3Styles.article}>
-      <Image
-            priority
-            src="/images/3/nft1.png"
-            className={headerStyles.logo}
-            width={400}
-            height={600}
-            alt="ロゴ"
-        />
-      <Image
-            priority
-            src="/images/3/nft2.png"
-            className={headerStyles.logo}
-            width={400}
-            height={600}
-            alt="ロゴ"
-        />
-      <Image
-            priority
-            src="/images/3/nft3.png"
-            className={headerStyles.logo}
-            width={400}
-            height={600}
-            alt="ロゴ"
-        />
-      </article> */}
     </Layout>
   );
 }
